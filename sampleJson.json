@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "FBI searches Biden papers at University of Delaware",
+      "description": "Investigators retrieved multiple boxes from the college and are reviewing the material.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64658951",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9186/production/_128645273_gettyimages-1240954815.jpg",
+      "publishedAt": "2023-02-16T04:22:29.0313367Z",
+      "content": "The FBI has conducted two searches within the last month at the University of Delaware to check if US President Joe Biden donated papers that could have been classified.\r\nInvestigators retrieved mult… [+1739 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Vast glacier at mercy of sea warmth increase",
+      "description": "New research suggests that even low amounts of melting can potentially push a glacier towards disappearance.",
+      "url": "http://www.bbc.co.uk/news/science-environment-64640796",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1526D/production/_110673668_p081l50m.jpg",
+      "publishedAt": "2023-02-16T04:22:25.9059008Z",
+      "content": "Media caption, WATCH: The BBC was given special access to the Icefin expedition\r\nAntarctic glaciers may be more sensitive to changes in sea temperature than was thought, new research shows. \r\nThe Bri… [+5018 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Nicola Sturgeon: Search begins to find successor",
+      "description": "After eight years as first minister, Ms Sturgeon says her head and her heart say it is the right time to go.",
+      "url": "http://www.bbc.co.uk/news/uk-scotland-64656166",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1508A/production/_128645168_stget.jpg",
+      "publishedAt": "2023-02-16T04:22:23.0784795Z",
+      "content": "Media caption, WATCH: Sturgeon 'wrestling' with decision to resign for weeks\r\nThe search for a new First Minister of Scotland has begun after Nicola Sturgeon's surprise decision to stand down.\r\nThe S… [+5890 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Is ‘Run, Hide, Fight’ the best advice for mass shootings?",
+      "description": "The three-word message was sent to students during a shooting at a Michigan university on Monday.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64643047",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10B52/production/_128643486_gettyimages-495486866.jpg",
+      "publishedAt": "2023-02-16T00:22:17.9171577Z",
+      "content": "When a gunman opened fire at Michigan State University on Monday, students on campus received a three-word order: \"Run, Hide, Fight.\"\r\n\"Run means evacuate away from danger if you can do so safely, Hi… [+4352 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Unseen video shows Titanic after first discovery",
+      "description": "It was filmed during a 1986 diving expedition which gave the first glimpses of the shipwreck on the sea floor.",
+      "url": "http://www.bbc.co.uk/news/science-environment-64658463",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9884/production/_128644093_p0f3dz5m.jpg",
+      "publishedAt": "2023-02-15T23:52:16.3690113Z",
+      "content": "Previously unseen footage of the wreckage of the RMS Titanic has been released. \r\nThe new footage was filmed during a 1986 diving expedition which gave the first glimpses of the shipwreck under the w… [+113 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Sex trafficking investigation into Republican Matt Gaetz dropped",
+      "description": "The US justice department will not bring charges following a two-year investigation into the congressman.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64644518",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/30EB/production/_128632521_gaetz.jpg",
+      "publishedAt": "2023-02-15T22:22:24.8537656Z",
+      "content": "The US justice department will not charge Florida Republican Matt Gaetz in relation to a sex trafficking investigation, sources told the BBC's US partner CBS News.\r\nHis lawyers also released a statem… [+1176 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Ohio train crash leaves small town in fear of toxic fallout",
+      "description": "People in East Palestine question their safety after the community was exposed to noxious chemicals.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64642046",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/95BE/production/_128643383_b027455f279c6ccd6092327a2f390c3807ccce5a0_0_5100_28701000x563.jpg",
+      "publishedAt": "2023-02-15T22:22:20.6972707Z",
+      "content": "Anxious residents are still demanding answers 12 days after a train carrying toxic chemicals derailed in the small Ohio town of East Palestine. \r\n\"It's pretty dramatic right now,\" said James Figley, … [+7859 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Raquel Welch: US actress and model dead at 82",
+      "description": "Welch won a Golden Globe Award in 1974 for her performance in The Three Musketeers.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64657781",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1332A/production/_128643687_gettyimages-869219976.jpg",
+      "publishedAt": "2023-02-15T20:22:20.5411339Z",
+      "content": "Hollywood star Raquel Welch, who became an international sex symbol in the 1960s, has died aged 82.\r\nWelch died on Wednesday morning after a brief illness, according to her manager.\r\nShe won a Golden… [+275 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Buffalo shooting: Relative lunges at gunman before sentencing",
+      "description": "Family members affected by the shooting in Buffalo, NY, speak before a life sentence is handed down.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64655018",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D628/production/_128642845_p0f39dqk.jpg",
+      "publishedAt": "2023-02-15T18:22:21.9013475Z",
+      "content": "Media caption, Watch: Family of victim charges Buffalo shooter in court room\r\nA gunman who killed 10 people in a racially-motivated shooting at a Buffalo, New York, supermarket last year has been sen… [+1855 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Nikki Haley: Why she thinks she can beat Trump in Republican race",
+      "description": "She's banking on Republicans looking for something different, but can she pull it off?",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64653925",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/106C/production/_128640240_haley3_976getty.jpg",
+      "publishedAt": "2023-02-15T15:37:25.4952267Z",
+      "content": "Nikki Haley becomes the first candidate to challenge Donald Trump for the Republican nomination when she holds her first campaign event in Charleston, South Carolina, on Wednesday.\r\nShe most certainl… [+6670 chars]"
+    }
+  ]
+}
