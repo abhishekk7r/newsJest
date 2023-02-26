@@ -82,7 +82,7 @@ export default class News extends Component {
         <div className="row my-4">
           {!this.state.loading &&
             this.state.article.map((element) => {
-              let { title, description, urlToImage, url } = element;
+              let { title, description, urlToImage, url, publishedAt, author } = element;
               return (
                 <div className="col mb-2" key={url}>
                   <NewsItem
@@ -95,6 +95,8 @@ export default class News extends Component {
                         : "https://images.unsplash.com/photo-1617575521317-d2974f3b56d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                     }
                     url={url}
+                    publishedAt={publishedAt}
+                    author={author ? author : "Unknown"}
                   />
                 </div>
               );

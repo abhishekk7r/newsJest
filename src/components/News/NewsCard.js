@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 export default class NewsCard extends Component {
   render() {
-    let { title, description, urlToImage, url } = this.props;
+    let { title, description, urlToImage, url, publishedAt, author } = this.props;
+    const time = publishedAt.slice(0, 10);
     return (
       <div className="my-3">
         <div className="card" style={{ width: "20rem" }}>
@@ -13,6 +14,9 @@ export default class NewsCard extends Component {
             <a href={url} className="btn btn-sm btn-dark">
               Read More
             </a>
+            <p className="card-text">
+              <small className="text-muted">By {author} on {time}</small>
+            </p>
           </div>
         </div>
       </div>
