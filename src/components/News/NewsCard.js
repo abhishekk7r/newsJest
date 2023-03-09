@@ -16,7 +16,7 @@ export default class NewsCard extends Component {
         <div className="card" style={{ width: "20rem" }}>
           <span
             className={`position-absolute top-0 translate-middle badge rounded-pill bg-${this.state.colorMode}`}
-            style={{ marginLeft: "241px" }}
+            style={{ marginLeft: "0px" }}
           >
             {source}
             <span className="visually-hidden"></span>
