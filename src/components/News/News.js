@@ -31,8 +31,10 @@ export default class News extends Component {
   }
 
   async updateNews() {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=541ca7c818c046b9aa0c3136fa8e2319&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    this.props.setProgress(10);
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
+    this.props.setProgress(30);
     fetch(url)
       .then((res) => res.json())
       .then((json) => {
@@ -42,6 +44,7 @@ export default class News extends Component {
           totalResults: json.totalResults,
         });
       });
+    this.props.setProgress(100);
   }
 
   async componentDidMount() {
@@ -50,7 +53,7 @@ export default class News extends Component {
 
   fetchData = async () => {
     this.setState({ page: this.state.page + 1 });
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=541ca7c818c046b9aa0c3136fa8e2319&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -67,6 +70,7 @@ export default class News extends Component {
         <h1 className="text-center" style={{ margin: "40px 40px" }}>
           {`NewsJest - Top ${this.capatalize(this.props.category)} Headlines  `}
         </h1>
+        {this.state.loading && <Spinner />}
         <InfiniteScroll
           dataLength={this.state.article.length} //This is important field to render the next data
           next={this.fetchData}
@@ -76,7 +80,15 @@ export default class News extends Component {
         >
           <div className="row my-4">
             {this.state.article.map((element, index) => {
-              let { title, description, urlToImage, url, publishedAt, author, source } = element;
+              let {
+                title,
+                description,
+                urlToImage,
+                url,
+                publishedAt,
+                author,
+                source,
+              } = element;
               return (
                 <div className="col mb-2" key={index}>
                   <NewsItem
